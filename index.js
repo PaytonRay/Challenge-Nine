@@ -52,7 +52,6 @@ inquirer
         }
     ])
 
-        //   .then((response) => JSON.stringify(response, null, "\t"))
         .then((response) => writeFileAsync("README.md", content(response)))
         .then(() => console.log("README generated"));
     
