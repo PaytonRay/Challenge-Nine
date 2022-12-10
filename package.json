@@ -1,5 +1,5 @@
 {
-  "name": "mini-project",
+  "name": "README",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquirer": "^9.1.4"
   }
 }
